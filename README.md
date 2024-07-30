@@ -82,6 +82,14 @@ Create your DbContext class
 Define your entity classes
 Use EziOrm in your application
 
+# Features Will Impl
+ - Caching
+ - Lazy Loading & Eager Loading
+ - Tracking and No-Tracking
+ - Advanced Query Building
+ - Logging and Diagnostics
+ - Transactions
+   
 ## Known Issues and Limitations
 
 Error Handling: Limited error handling throughout the code. More robust error handling and logging should be implemented.
@@ -90,13 +98,7 @@ SQL Injection Vulnerability: The QueryBuilder class generates SQL strings direct
 Limited Support for Complex Queries: The current implementation doesn't support joins or subqueries, which limits its functionality for complex data retrieval scenarios.
 Lack of Caching Mechanism: There's no built-in caching system, which could impact performance for frequently accessed data.
 Limited Database Support: The ORM seems to be designed primarily for SQL Server. Support for other databases should be considered.
-# Features Will Impl
- - Caching
- - Lazy Loading & Eager Loading
- - Tracking and No-Tracking
- - Advanced Query Building
- - Logging and Diagnostics
- - Transactions
+
 # Suggested Improvements
 
  Implement comprehensive error handling and logging throughout the framework.
